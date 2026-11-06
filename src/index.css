@@ -1,0 +1,26 @@
+/* Load the font weights used across the app. */
+@import '@fontsource/roboto/400.css';
+@import '@fontsource/roboto/500.css';
+@import '@fontsource/roboto/700.css';
+
+/* Set the default font and colors for the whole page. */
+:root {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: #23332d;
+  background: #f7f8f5;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-optical-sizing: auto;
+  font-weight: 400;
+}
+
+/* Keep element sizing consistent across browsers. */
+* { box-sizing: border-box; }
+
+/* Basic page sizing and default form control styles. */
+body { margin: 0; min-width: 320px; min-height: 100vh; }
+button, input { font: inherit; }
+button { cursor: pointer; }
